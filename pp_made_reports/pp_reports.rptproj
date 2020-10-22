@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ToolsVersion="2.0">
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <DataSources>
+    <ProjectItem>
+      <Name>dhaba.rds</Name>
+      <FullPath>dhaba.rds</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>dwh.rds</Name>
+      <FullPath>dwh.rds</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>msbidb.rds</Name>
+      <FullPath>msbidb.rds</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>travels.rds</Name>
+      <FullPath>travels.rds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSets>
+    <ProjectItem>
+      <Name>DataSet_dwh_query_builder.rsd</Name>
+      <FullPath>DataSet_dwh_query_builder.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>dhaba.rsd</Name>
+      <FullPath>dhaba.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Ds_sale.rsd</Name>
+      <FullPath>Ds_sale.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>dwh_student.rsd</Name>
+      <FullPath>dwh_student.rsd</FullPath>
+    </ProjectItem>
+  </DataSets>
+  <Reports>
+    <ProjectItem>
+      <Name>01 wizard Report tabular 1.rdl</Name>
+      <FullPath>01 wizard Report tabular 1.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>02 wizard Report tabular 2.rdl</Name>
+      <FullPath>02 wizard Report tabular 2.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>03 wizard Report tabular 3.rdl</Name>
+      <FullPath>03 wizard Report tabular 3.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>04 wizard Reportt abular 4.rdl</Name>
+      <FullPath>04 wizard Reportt abular 4.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>05 wizard Report tabular 5.rdl</Name>
+      <FullPath>05 wizard Report tabular 5.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>06 wizard Report matrix 1.rdl</Name>
+      <FullPath>06 wizard Report matrix 1.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>07 wizard Report matrix2.rdl</Name>
+      <FullPath>07 wizard Report matrix2.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>08 salewizhard.rdl</Name>
+      <FullPath>08 salewizhard.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>09 dril down.rdl</Name>
+      <FullPath>09 dril down.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>10 stteped with sub total drildown.rdl</Name>
+      <FullPath>10 stteped with sub total drildown.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>11 multipage.rdl</Name>
+      <FullPath>11 multipage.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>12 page group details sttepted.rdl</Name>
+      <FullPath>12 page group details sttepted.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>13page black.rdl</Name>
+      <FullPath>13page black.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>13page brake when two report .rdl</Name>
+      <FullPath>13page brake when two report .rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>14 multiple dril down report .rdl</Name>
+      <FullPath>14 multiple dril down report .rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>15 bonus.rdl</Name>
+      <FullPath>15 bonus.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>16 diplay report name and clm on each page .rdl</Name>
+      <FullPath>16 diplay report name and clm on each page .rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>17 all the rows on single page.rdl</Name>
+      <FullPath>17 all the rows on single page.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>18 running total and row no function page level and group level.rdl</Name>
+      <FullPath>18 running total and row no function page level and group level.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>19 parameterise_with specifies values.rdl</Name>
+      <FullPath>19 parameterise_with specifies values.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>20 parameterise_with get value from query.rdl</Name>
+      <FullPath>20 parameterise_with get value from query.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>21 parametarise with query withmultivalues.rdl</Name>
+      <FullPath>21 parametarise with query withmultivalues.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>22 dateparameter.rdl</Name>
+      <FullPath>22 dateparameter.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>23 1ST  radio buttan.rdl</Name>
+      <FullPath>23 1ST  radio buttan.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>23 2ND expand and collapse parameter94.1.rdl</Name>
+      <FullPath>23 2ND expand and collapse parameter94.1.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>23 hide or unhide row by expresion.rdl</Name>
+      <FullPath>23 hide or unhide row by expresion.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>24 cascateparametarise report.rdl</Name>
+      <FullPath>24 cascateparametarise report.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>24 dbo.sp_sale_main_query cascate parametre.rdl</Name>
+      <FullPath>24 dbo.sp_sale_main_query cascate parametre.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>25 nullvalue.rdl</Name>
+      <FullPath>25 nullvalue.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>26 null value with multivalue para.rdl</Name>
+      <FullPath>26 null value with multivalue para.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>27 nullvalue with optional.rdl</Name>
+      <FullPath>27 nullvalue with optional.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>28 single value parametr sp.rdl</Name>
+      <FullPath>28 single value parametr sp.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>29 multiple with sp .rdl</Name>
+      <FullPath>29 multiple with sp .rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>30 wildcard.rdl</Name>
+      <FullPath>30 wildcard.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>31 defoult multi value parameter with null.rdl</Name>
+      <FullPath>31 defoult multi value parameter with null.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>31 pass parameter value from image click 56.rdl</Name>
+      <FullPath>31 pass parameter value from image click 56.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>32 COLOUR CHNAGE ROW BY ROW.rdl</Name>
+      <FullPath>32 COLOUR CHNAGE ROW BY ROW.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>33 COLOUR BY GROUP BY GROUP.rdl</Name>
+      <FullPath>33 COLOUR BY GROUP BY GROUP.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>34 NULL VALUE BY USING IIF EXPRESTION.rdl</Name>
+      <FullPath>34 NULL VALUE BY USING IIF EXPRESTION.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>35 hide empty row.rdl</Name>
+      <FullPath>35 hide empty row.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>36 iif and swich function.rdl</Name>
+      <FullPath>36 iif and swich function.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>37 parametr value display in record .rdl</Name>
+      <FullPath>37 parametr value display in record .rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>38 image with exprestion.rdl</Name>
+      <FullPath>38 image with exprestion.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>39 image uesd diff of sale.rdl</Name>
+      <FullPath>39 image uesd diff of sale.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>40 total pages by using expression.rdl</Name>
+      <FullPath>40 total pages by using expression.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>41 row no per page.rdl</Name>
+      <FullPath>41 row no per page.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>42 row no per page by using group .rdl</Name>
+      <FullPath>42 row no per page by using group .rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>43 tabs58.rdl</Name>
+      <FullPath>43 tabs58.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>44 get image from database sql server 59.rdl</Name>
+      <FullPath>44 get image from database sql server 59.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>45 external image 59.1.rdl</Name>
+      <FullPath>45 external image 59.1.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>46 in a one clm put maximum clm ex address of persan.rdl</Name>
+      <FullPath>46 in a one clm put maximum clm ex address of persan.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>46 Rotation.rdl</Name>
+      <FullPath>46 Rotation.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>47 check box for active or inactive values.rdl</Name>
+      <FullPath>47 check box for active or inactive values.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>50 create  master report with report selection parameter 63.rdl</Name>
+      <FullPath>50 create  master report with report selection parameter 63.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>51 short the clm asc desc by using parameter exprestion.rdl</Name>
+      <FullPath>51 short the clm asc desc by using parameter exprestion.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>52 interactive shorting.rdl</Name>
+      <FullPath>52 interactive shorting.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>53 indicatar.rdl</Name>
+      <FullPath>53 indicatar.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>54 data bar clm87 .rdl</Name>
+      <FullPath>54 data bar clm87 .rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>55 spark line report  88.rdl</Name>
+      <FullPath>55 spark line report  88.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>56 filter demo 92.rdl</Name>
+      <FullPath>56 filter demo 92.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>57 auto reffresh 93 .rdl</Name>
+      <FullPath>57 auto reffresh 93 .rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>58 changing clr by interval 94.rdl</Name>
+      <FullPath>58 changing clr by interval 94.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>59 header display on each page .rdl</Name>
+      <FullPath>59 header display on each page .rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>AREA CHART REPORT.rdl</Name>
+      <FullPath>AREA CHART REPORT.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>BAR STACKED CHART .rdl</Name>
+      <FullPath>BAR STACKED CHART .rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>clm chart 2nd.rdl</Name>
+      <FullPath>clm chart 2nd.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>clm chart min or max expresstion.rdl</Name>
+      <FullPath>clm chart min or max expresstion.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>creating tabs 58.rdl</Name>
+      <FullPath>creating tabs 58.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>design template1.rdl</Name>
+      <FullPath>design template1.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>detaild report need for summary.rdl</Name>
+      <FullPath>detaild report need for summary.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>EXCEL SOURCES REPORT .rdl</Name>
+      <FullPath>EXCEL SOURCES REPORT .rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>how add clm chart and line chart both.rdl</Name>
+      <FullPath>how add clm chart and line chart both.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>how to plot multiple line on a same graph.rdl</Name>
+      <FullPath>how to plot multiple line on a same graph.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>html adding.rdl</Name>
+      <FullPath>html adding.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>map population.rdl</Name>
+      <FullPath>map population.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>master report for cling for sub report.rdl</Name>
+      <FullPath>master report for cling for sub report.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>pi chart.rdl</Name>
+      <FullPath>pi chart.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Report1.rdl</Name>
+      <FullPath>Report1.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>60 header is visble when scrolling the data .rdl</Name>
+      <FullPath>60 header is visble when scrolling the data .rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>scatterd chart report.rdl</Name>
+      <FullPath>scatterd chart report.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>sql server through map geo clm.rdl</Name>
+      <FullPath>sql server through map geo clm.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>stacked clm chart report.rdl</Name>
+      <FullPath>stacked clm chart report.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>sub detalied 1.rdl</Name>
+      <FullPath>sub detalied 1.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>summary report.rdl</Name>
+      <FullPath>summary report.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>time plizz.rdl</Name>
+      <FullPath>time plizz.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>top  n  values by using parameter exprestion same as like filter 96.rdl</Name>
+      <FullPath>top  n  values by using parameter exprestion same as like filter 96.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>VIEW DYNAMIC CLM.rdl</Name>
+      <FullPath>VIEW DYNAMIC CLM.rdl</FullPath>
+    </ProjectItem>
+  </Reports>
+  <Configurations>
+    <Configuration>
+      <Name>Debug</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <OutputPath>bin\Debug</OutputPath>
+        <TargetServerVersion>SSRS2008R2</TargetServerVersion>
+        <TargetServerURL>http://localhost/reportserver</TargetServerURL>
+        <TargetFolder>pp_made_reports</TargetFolder>
+        <TargetDataSourceFolder>Data Sources</TargetDataSourceFolder>
+        <OverwriteDataSources>true</OverwriteDataSources>
+        <TargetDatasetFolder>Datasets</TargetDatasetFolder>
+        <OverwriteDatasets>true</OverwriteDatasets>
+        <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>DebugLocal</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <OutputPath>bin\DebugLocal</OutputPath>
+        <TargetServerVersion>SSRS2008R2</TargetServerVersion>
+        <TargetFolder>pp_made_reports</TargetFolder>
+        <TargetDataSourceFolder>Data Sources</TargetDataSourceFolder>
+        <TargetDatasetFolder>Datasets</TargetDatasetFolder>
+        <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>Release</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <OutputPath>bin\Release</OutputPath>
+        <TargetServerVersion>SSRS2008R2</TargetServerVersion>
+        <TargetFolder>pp_made_reports</TargetFolder>
+        <TargetDataSourceFolder>Data Sources</TargetDataSourceFolder>
+        <TargetDatasetFolder>Datasets</TargetDatasetFolder>
+        <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

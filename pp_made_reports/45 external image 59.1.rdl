@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Image Name="Image1">
+        <Source>External</Source>
+        <Value>file:C:\Users\prashant\Downloads\images for project\images for background\image19.jpg</Value>
+        <Sizing>FitProportional</Sizing>
+        <Top>3.35703cm</Top>
+        <Left>0.36724cm</Left>
+        <Height>7.40833cm</Height>
+        <Width>12.99104cm</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <BottomBorder>
+            <Style>Double</Style>
+            <Width>5pt</Width>
+          </BottomBorder>
+          <RightBorder>
+            <Style>Double</Style>
+            <Width>5pt</Width>
+          </RightBorder>
+        </Style>
+      </Image>
+      <Textbox Name="Textbox3">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>external image by directly coming add </Value>
+                <Style />
+              </TextRun>
+              <TextRun>
+                <Value>path</Value>
+                <Style>
+                  <Color>Green</Color>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value> with </Value>
+                <Style />
+              </TextRun>
+              <TextRun>
+                <Value>file:</Value>
+                <Style>
+                  <Color>Green</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ex given below</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>file:C:\Users\prashant\Downloads\images for project\images for background\image19.jpg</Value>
+                <Style>
+                  <Color>Green</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>it is used for same matchine</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox3</rd:DefaultName>
+        <Top>0.44662cm</Top>
+        <Left>0.7112cm</Left>
+        <Height>2.39917cm</Height>
+        <Width>11.90625cm</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox4">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>unc imgae go to run -&gt;\\my pc name \c$</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ex of my pc-&gt;   </Value>
+                <Style />
+              </TextRun>
+              <TextRun>
+                <Value> \\DESKTOP-21VP57I\c$ </Value>
+                <Style>
+                  <Color>SeaGreen</Color>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value> -&gt;press enter and find the image  and copy the image path and pest with file :</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>problem is that -&gt; press into the expressiton or type 2 extra \\  as given in the below</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>file:\\\\DESKTOP-21VP57I\c$\Users\prashant\Downloads\images for project\images for background\image22.jpg</Value>
+                <Style>
+                  <Color>SeaGreen</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value />
+                <Style>
+                  <Color>SeaGreen</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>it is uesd for diffrent matchine or remote location matchine</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox4</rd:DefaultName>
+        <Left>14.46953cm</Left>
+        <Height>3.18064cm</Height>
+        <Width>12.95104cm</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Image Name="Image2">
+        <Source>External</Source>
+        <Value>file:\\DESKTOP-21VP57I\c$\Users\prashant\Downloads\images for project\images for background\image21.jpg</Value>
+        <Sizing>FitProportional</Sizing>
+        <Top>3.35703cm</Top>
+        <Left>14.46953cm</Left>
+        <Height>7.40833cm</Height>
+        <Width>12.95104cm</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <BottomBorder>
+            <Style>Double</Style>
+            <Width>5pt</Width>
+          </BottomBorder>
+          <RightBorder>
+            <Style>Double</Style>
+            <Width>5pt</Width>
+          </RightBorder>
+        </Style>
+      </Image>
+      <Image Name="Image3">
+        <Source>External</Source>
+        <Value>http://thehinduimages.com/admin/img/banner/PAR.jpg</Value>
+        <Sizing>Fit</Sizing>
+        <Top>12.37933cm</Top>
+        <Left>0.36724cm</Left>
+        <Height>8.16681cm</Height>
+        <Width>27.05333cm</Width>
+        <ZIndex>4</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Image>
+      <Textbox Name="Textbox5">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>online image by copy image url ex </Value>
+                <Style />
+              </TextRun>
+              <TextRun>
+                <Value>http://thehinduimages.com/admin/img/banner/PAR.jpg</Value>
+                <Style>
+                  <Color>SeaGreen</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox5</rd:DefaultName>
+        <Top>11.37391cm</Top>
+        <Left>3.33058cm</Left>
+        <Height>0.6cm</Height>
+        <Width>21.31187cm</Width>
+        <ZIndex>5</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Image Name="Image4">
+        <Source>External</Source>
+        <Value>http://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwIWr5.img?h=194&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;x=328&amp;y=219</Value>
+        <Sizing>Fit</Sizing>
+        <Top>21.40162cm</Top>
+        <Left>0.36724cm</Left>
+        <Height>8.96125cm</Height>
+        <Width>27.05333cm</Width>
+        <ZIndex>6</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Image>
+    </ReportItems>
+    <Height>12.47444in</Height>
+    <Style />
+  </Body>
+  <Width>22.86681in</Width>
+  <Page>
+    <PageHeight>29.7cm</PageHeight>
+    <PageWidth>21cm</PageWidth>
+    <LeftMargin>2cm</LeftMargin>
+    <RightMargin>2cm</RightMargin>
+    <TopMargin>2cm</TopMargin>
+    <BottomMargin>2cm</BottomMargin>
+    <ColumnSpacing>0.13cm</ColumnSpacing>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>c3690631-50e2-4ccb-ac7f-8a9cc4c52537</rd:ReportID>
+</Report>

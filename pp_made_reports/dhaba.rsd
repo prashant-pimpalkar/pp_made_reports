@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>dhaba</DataSourceReference>
+      <CommandText>SELECT        customers.customers_nmae, customers.city, customers.mobno, dessert.dessert_name, dessert.dessert_pricefull, rice.rice_name, rice.rice_pricefull, rice.rice_pricehalf, breads.breads_name, 
+                         breads.breads_pricefull, breads.food_categary_id, curry.curry_name, curry.curry_pricefull, curry.curry_pricehalf, chineese.chineese_name, chineese.chineese_pricefull, chineese.chineese_pricehalf, 
+                         gender.gender_name, R_business.rice_quantity, R_business.breads_quantity, R_business.curry_quantity, R_business.chineese_quantity, R_business.dessert_quantity, customers.customers_id
+FROM            R_business INNER JOIN
+                         customers ON R_business.customers_id = customers.customers_id INNER JOIN
+                         dessert ON R_business.dessert_id = dessert.dessert_id INNER JOIN
+                         curry ON R_business.curry_id = curry.curry_id INNER JOIN
+                         chineese ON R_business.chineese_id = chineese.chineese_id INNER JOIN
+                         breads ON R_business.breads_id = breads.breads_id INNER JOIN
+                         rice ON R_business.rice_id = rice.rice_id INNER JOIN
+                         gender ON customers.gender_id = gender.gender_id</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="customers_nmae">
+        <DataField>customers_nmae</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="city">
+        <DataField>city</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="mobno">
+        <DataField>mobno</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="food_categary_id">
+        <DataField>food_categary_id</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="gender_name">
+        <DataField>gender_name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="breads_name">
+        <DataField>breads_name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="breads_pricefull">
+        <DataField>breads_pricefull</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="rice_name">
+        <DataField>rice_name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="rice_pricefull">
+        <DataField>rice_pricefull</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="rice_pricehalf">
+        <DataField>rice_pricehalf</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="dessert_pricefull">
+        <DataField>dessert_pricefull</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="dessert_name">
+        <DataField>dessert_name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="chineese_pricehalf">
+        <DataField>chineese_pricehalf</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="chineese_pricefull">
+        <DataField>chineese_pricefull</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="chineese_name">
+        <DataField>chineese_name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="curry_name">
+        <DataField>curry_name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="curry_pricefull">
+        <DataField>curry_pricefull</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="curry_pricehalf">
+        <DataField>curry_pricehalf</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="customers_id">
+        <DataField>customers_id</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="breads_quantity">
+        <DataField>breads_quantity</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="rice_quantity">
+        <DataField>rice_quantity</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="curry_quantity">
+        <DataField>curry_quantity</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="chineese_quantity">
+        <DataField>chineese_quantity</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="dessert_quantity">
+        <DataField>dessert_quantity</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

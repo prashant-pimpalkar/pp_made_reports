@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>dwh</DataSourceReference>
+      <CommandText>SELECT        dimstudent_dwh.studentnmae_3 AS student_name, dimstudent_dwh.city_3 AS city, dimstudent_dwh.phoneno_3 AS mob_no, fact_dimpayments_dwh.feepaid AS fee_paid, DimLocation_dwh.State_3 AS state, 
+                         DimLocation_dwh.Country_3 AS country, dimcources_dwh.cnmae_3 AS cources_name, dimcources_dwh.fees_3 AS fees, dimcources_dwh.categaryname AS cources_categary_name, 
+                         fact_dimpayments_dwh.DateKey AS fess_paid_date
+FROM            fact_dimpayments_dwh INNER JOIN
+                         dimstudent_dwh ON fact_dimpayments_dwh.sid_3 = dimstudent_dwh.sid_3 INNER JOIN
+                         DimLocation_dwh ON fact_dimpayments_dwh.LocationKey_3 = DimLocation_dwh.LocationKey_3 INNER JOIN
+                         dimcources_dwh ON fact_dimpayments_dwh.cid_3 = dimcources_dwh.cid_3</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="student_name">
+        <DataField>student_name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="city">
+        <DataField>city</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="mob_no">
+        <DataField>mob_no</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="fee_paid">
+        <DataField>fee_paid</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="state">
+        <DataField>state</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="country">
+        <DataField>country</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="cources_name">
+        <DataField>cources_name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="fees">
+        <DataField>fees</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="cources_categary_name">
+        <DataField>cources_categary_name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="fess_paid_date">
+        <DataField>fess_paid_date</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
